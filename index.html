@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD87_mQnNicSSWtrlwJ4U33PiUMHAnTMaw",
+    authDomain: "paint-app-73bce.firebaseapp.com",
+    databaseURL: "https://paint-app-73bce.firebaseio.com",
+    projectId: "paint-app-73bce",
+    storageBucket: "paint-app-73bce.appspot.com",
+    messagingSenderId: "1092701433362",
+    appId: "1:1092701433362:web:5fbb44b956bf183cd772cb",
+    measurementId: "G-2TNTB459VR"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
